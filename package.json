@@ -1,0 +1,30 @@
+{
+	"name": "bowfin",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"types": "lib",
+	"scripts": {
+		"dev": "nodemon"
+	},
+	"keywords": [
+		"schema",
+		"database",
+		"validator",
+		"dynamic schema"
+	],
+	"author": "Uppu Prashanth",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/ajv": "^1.0.0",
+		"@types/mongodb": "^3.3.14",
+		"@types/node": "^13.1.8",
+		"nodemon": "^2.0.2",
+		"ts-node": "^8.6.2",
+		"typescript": "^3.7.5"
+	},
+	"dependencies": {
+		"ajv": "^6.11.0",
+		"mongodb": "^3.5.2"
+	}
+}

@@ -2,10 +2,14 @@
 	"name": "bowfin",
 	"version": "0.0.0",
 	"description": "",
-	"main": "index.js",
-	"types": "lib",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": [
+		"lib/**/*"
+	],
 	"scripts": {
-		"dev": "nodemon"
+		"dev": "nodemon",
+		"build": "tsc"
 	},
 	"keywords": [
 		"schema",

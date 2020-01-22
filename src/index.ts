@@ -1,1 +1,5 @@
-export const Greeter = (name: string) => console.log(`Hello, ${name}`)
+import BowfinDB from './bowfin-db'
+
+export {
+    BowfinDB
+}
